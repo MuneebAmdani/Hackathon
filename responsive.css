@@ -1,0 +1,31 @@
+@media(min-width:550px){
+    .responsive ul{
+        display: flex;
+    }
+    .flex-container li{
+        flex-basis: 95%;
+    }
+    .flex-container figure{
+        width: 98%;
+    }
+    .flex-container h1,p{
+        font-size: 50%;
+        width: 49%;
+    }
+    #banner ul{
+        display: flex;
+        gap: 5%;
+    }
+}
+@media (min-width:800px){
+    .flex-container h1,p{
+        font-size: 78%;
+        width: 49%;
+    }
+}
+@media (min-width:1000px){
+    .flex-container h1,p{
+        font-size: 102%;
+        width: 49%;
+    }
+}
